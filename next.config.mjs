@@ -1,5 +1,3 @@
-import type { NextConfig } from "next";
-
 /**
  * Static export. `npm run build` writes a self-contained site to ./dist that
  * any HTML server can host: no Node, no image optimizer, no rewrites.
@@ -13,7 +11,8 @@ import type { NextConfig } from "next";
  * Set NEXT_PUBLIC_SITE_URL to the final https://domain before building, or the
  * canonical, sitemap and JSON-LD URLs come out pointing at localhost.
  */
-const nextConfig: NextConfig = {
+/** @type {import("next").NextConfig} */
+const nextConfig = {
   output: "export",
   distDir: "dist",
   trailingSlash: true,
