@@ -1,7 +1,7 @@
 # Lomas Altas
 
 Sitio de [Next.js](https://nextjs.org) para la torre residencial Lomas Altas (Terralago, Lomas Verdes, Naucalpan). Se publica como **sitio estático**: el build genera una carpeta `dist/` lista para subir a cualquier servidor HTML.
-
+4
 ## Desarrollo
 
 ```bash
