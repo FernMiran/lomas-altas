@@ -94,7 +94,7 @@ export const TIPOLOGIAS: readonly Tipologia[] = [
       { label: "Niveles", valor: "Planta Baja / Nivel Jardín (Duplex)" },
       { label: "Recámaras", valor: "4 recámaras y 3 estudios" },
       { label: "Baños", valor: "4 baños completos" },
-      { label: "Estacionamiento", valor: "2 a 3 cajones techados" },
+      { label: "Estacionamiento", valor: "2 cajones independientes techados" },
       { label: "Servicios", valor: "Cuarto de lavado y cuarto de servicio independiente" },
     ],
     plantas: [
@@ -675,7 +675,7 @@ export const FICHA: readonly FichaFila[] = [
   { dt: "Tipologías", dd: "4 modelos diseñados a detalle" },
   { dt: "Niveles", dd: "5 sobre planta baja + 3 de estacionamiento" },
   { dt: "Superficies", dd: "Desde 188.94 m² hasta 384.84 m² totales" },
-  { dt: "Estacionamiento", dd: "2 a 3 cajones techados por residencia" },
+  { dt: "Estacionamiento", dd: "2 cajones independientes techados por residencia" },
   { dt: "Amenidades", dd: "Roof garden común, gimnasio, lobby y jardines" },
   { dt: "Desarrolla", dd: "Siermend" },
 ];
